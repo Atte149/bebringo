@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_streak_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_cold_night">
+
+    <!-- Атмосферные снежинки / искры за спиной маскота -->
+    <ImageView
+        android:id="@+id/widget_particles"
+        android:layout_width="115dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end|top"
+        android:contentDescription="@null"
+        android:scaleType="fitEnd"
+        android:src="@drawable/bg_widget_particles_snow" />
+
+    <!-- Крупный маскот справа снизу (в стиле Duolingo) -->
+    <ImageView
+        android:id="@+id/widget_mascot"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="2dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Маскот бобёр Bebringo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mascot_frost" />
+
+    <!-- Левая колонка: Огонёк + Дни + Фраза + Календарь на 5 дней -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="14dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="72dp"
+        android:paddingBottom="8dp">
+
+        <!-- Строка 1: Иконка огонька/льдинки + прямо написанные дни -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/widget_flame_icon"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_widget_flame_cold" />
+
+            <TextView
+                android:id="@+id/widget_streak_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="0 дней"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Строка 2: Короткая эмоциональная реплика -->
+        <TextView
+            android:id="@+id/widget_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Так холодно без урока..."
+            android:textColor="#C7DCF2"
+            android:textSize="11.5sp" />
+
+        <!-- Строка 3: Полоса из 5 дней недели с кружками/щитами -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- День 1 -->
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/widget_day_label_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="Пт"
+                    android:textColor="#B8D0E8"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/widget_day_icon_0"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="3dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_widget_day_missed" />
+            </LinearLayout>
+
+            <!-- День 2 -->
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/widget_day_label_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="Сб"
+                    android:textColor="#B8D0E8"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/widget_day_icon_1"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="3dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_widget_day_missed" />
+            </LinearLayout>
+
+            <!-- День 3 -->
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/widget_day_label_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="Вс"
+                    android:textColor="#B8D0E8"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/widget_day_icon_2"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="3dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_widget_day_missed" />
+            </LinearLayout>
+
+            <!-- День 4 -->
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/widget_day_label_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="Пн"
+                    android:textColor="#B8D0E8"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/widget_day_icon_3"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="3dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_widget_day_missed" />
+            </LinearLayout>
+
+            <!-- День 5 (Сегодня) -->
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/widget_day_label_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="Вт"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/widget_day_icon_4"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="3dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_widget_day_today_pending" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

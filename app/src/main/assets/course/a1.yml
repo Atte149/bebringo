@@ -1,0 +1,660 @@
+id: "ro_a1"
+title: "Румынский A1"
+subtitle: "Повседневные сцены · A1"
+kind: "language"
+mascotPose: "flag_ro"
+ttsLocale: "ro-RO"
+specialChars: ["ă", "â", "î", "ș", "ț"]
+capabilities:
+  tts: true
+  diacritics: true
+  fsrs: true
+  llmCoach: true
+
+lemmas:
+  - { id: "buna", lemma: "bună", ru: "привет; хорошая", pos: "interjection", example: "Bună, Ana!", exampleRu: "Привет, Ана!" }
+  - { id: "buna-ziua", lemma: "bună ziua", ru: "добрый день", pos: "phrase", example: "Bună ziua, domnule!", exampleRu: "Добрый день, господин!" }
+  - { id: "buna-dimineata", lemma: "bună dimineața", ru: "доброе утро", pos: "phrase", example: "Bună dimineața!", exampleRu: "Доброе утро!" }
+  - { id: "buna-seara", lemma: "bună seara", ru: "добрый вечер", pos: "phrase", example: "Bună seara!", exampleRu: "Добрый вечер!" }
+  - { id: "multumesc", lemma: "mulțumesc", ru: "спасибо", pos: "verb", example: "Mulțumesc foarte mult.", exampleRu: "Большое спасибо." }
+  - { id: "te-rog", lemma: "te rog", ru: "пожалуйста (ты)", pos: "phrase", example: "O cafea, te rog.", exampleRu: "Кофе, пожалуйста." }
+  - { id: "va-rog", lemma: "vă rog", ru: "пожалуйста (вы)", pos: "phrase", example: "Un bilet, vă rog.", exampleRu: "Один билет, пожалуйста." }
+  - { id: "la-revedere", lemma: "la revedere", ru: "до свидания", pos: "phrase", example: "La revedere!", exampleRu: "До свидания!" }
+  - { id: "ce-faci", lemma: "ce faci", ru: "как дела", pos: "phrase", example: "Salut, ce faci?", exampleRu: "Привет, как дела?" }
+  - { id: "bine", lemma: "bine", ru: "хорошо", pos: "adverb", example: "Sunt bine.", exampleRu: "У меня всё хорошо." }
+  - { id: "cum", lemma: "cum", ru: "как", pos: "adverb", example: "Cum vă numiți?", exampleRu: "Как вас зовут?" }
+  - { id: "unde", lemma: "unde", ru: "где; куда", pos: "adverb", example: "De unde ești?", exampleRu: "Откуда ты?" }
+  - { id: "cine", lemma: "cine", ru: "кто", pos: "pronoun", example: "Cine ești?", exampleRu: "Кто ты?" }
+  - { id: "nume", lemma: "nume", ru: "имя", pos: "noun", gender: "n", plural: "nume", example: "Mă numesc Grigore.", exampleRu: "Меня зовут Григоре." }
+  - { id: "ma-numesc", lemma: "mă numesc", ru: "меня зовут", pos: "phrase", example: "Mă numesc Anna.", exampleRu: "Меня зовут Анна." }
+  - { id: "imi-pare-bine", lemma: "îmi pare bine", ru: "приятно познакомиться", pos: "phrase", example: "Îmi pare bine!", exampleRu: "Приятно познакомиться!" }
+  - { id: "din", lemma: "din", ru: "из", pos: "preposition", example: "Sunt din Rusia.", exampleRu: "Я из России." }
+  - { id: "sunt", lemma: "sunt", ru: "я есть; они есть", pos: "verb", example: "Sunt din Moscova.", exampleRu: "Я из Москвы." }
+  - { id: "este", lemma: "este", ru: "есть (он, она)", pos: "verb", example: "Unde este gara?", exampleRu: "Где вокзал?" }
+  - { id: "cafea", lemma: "cafea", ru: "кофе", pos: "noun", gender: "f", plural: "cafele", example: "Vreau o cafea.", exampleRu: "Я хочу кофе." }
+  - { id: "ceai", lemma: "ceai", ru: "чай", pos: "noun", gender: "n", plural: "ceaiuri", example: "Un ceai, te rog.", exampleRu: "Чай, пожалуйста." }
+  - { id: "apa", lemma: "apă", ru: "вода", pos: "noun", gender: "f", plural: "ape", example: "O apă, vă rog.", exampleRu: "Воду, пожалуйста." }
+  - { id: "vreau", lemma: "vreau", ru: "хочу", pos: "verb", example: "Vreau un bilet.", exampleRu: "Я хочу билет." }
+  - { id: "cat-costa", lemma: "cât costă", ru: "сколько стоит", pos: "phrase", example: "Cât costă cafeaua?", exampleRu: "Сколько стоит кофе?" }
+  - { id: "costa", lemma: "costă", ru: "стоит", pos: "verb", example: "Costă cinci lei.", exampleRu: "Стоит пять лей." }
+  - { id: "cinci", lemma: "cinci", ru: "пять", pos: "numeral", example: "Cinci lei.", exampleRu: "Пять лей." }
+  - { id: "lei", lemma: "lei", ru: "лей", pos: "noun", gender: "m", plural: "lei", example: "Zece lei.", exampleRu: "Десять лей." }
+  - { id: "nota", lemma: "nota", ru: "счёт", pos: "noun", gender: "f", plural: "note", example: "Nota, vă rog.", exampleRu: "Счёт, пожалуйста." }
+  - { id: "bilet", lemma: "bilet", ru: "билет", pos: "noun", gender: "n", plural: "bilete", example: "Un bilet la Cluj.", exampleRu: "Билет до Клужа." }
+  - { id: "tren", lemma: "tren", ru: "поезд", pos: "noun", gender: "n", plural: "trenuri", example: "Trenul pleacă.", exampleRu: "Поезд отправляется." }
+  - { id: "gara", lemma: "gară", ru: "вокзал", pos: "noun", gender: "f", plural: "gări", example: "Sunt la gară.", exampleRu: "Я на вокзале." }
+  - { id: "cluj", lemma: "Cluj", ru: "Клуж", pos: "noun", example: "Merg la Cluj.", exampleRu: "Еду в Клуж." }
+  - { id: "ora", lemma: "oră", ru: "час; время", pos: "noun", gender: "f", plural: "ore", example: "La ce oră?", exampleRu: "В котором часу?" }
+  - { id: "pleaca", lemma: "pleacă", ru: "отправляется", pos: "verb", example: "Trenul pleacă la ora opt.", exampleRu: "Поезд отправляется в восемь." }
+  - { id: "opt", lemma: "opt", ru: "восемь", pos: "numeral", example: "La ora opt.", exampleRu: "В восемь часов." }
+  - { id: "noua", lemma: "nouă", ru: "девять", pos: "numeral", example: "La ora nouă.", exampleRu: "В девять часов." }
+  - { id: "zece", lemma: "zece", ru: "десять", pos: "numeral", example: "La ora zece.", exampleRu: "В десять часов." }
+  - { id: "vagon", lemma: "vagon", ru: "вагон", pos: "noun", gender: "n", plural: "vagoane", example: "Unde este vagonul?", exampleRu: "Где вагон?" }
+  - { id: "sapte", lemma: "șapte", ru: "семь", pos: "numeral", example: "Vagonul șapte.", exampleRu: "Седьмой вагон." }
+  - { id: "loc", lemma: "loc", ru: "место", pos: "noun", gender: "n", plural: "locuri", example: "Locul meu.", exampleRu: "Моё место." }
+  - { id: "ajuns", lemma: "am ajuns", ru: "я приехал; мы приехали", pos: "verb", example: "Am ajuns la Cluj.", exampleRu: "Мы приехали в Клуж." }
+  - { id: "acum", lemma: "acum", ru: "сейчас", pos: "adverb", example: "Sunt aici acum.", exampleRu: "Я сейчас здесь." }
+  - { id: "familie", lemma: "familie", ru: "семья", pos: "noun", gender: "f", plural: "familii", example: "Aceasta este familia mea.", exampleRu: "Это моя семья." }
+  - { id: "mama", lemma: "mamă", ru: "мама", pos: "noun", gender: "f", plural: "mame", example: "Aceasta este mama mea.", exampleRu: "Это моя мама." }
+  - { id: "frate", lemma: "frate", ru: "брат", pos: "noun", gender: "m", plural: "frați", example: "Am un frate.", exampleRu: "У меня есть брат." }
+  - { id: "sora", lemma: "soră", ru: "сестра", pos: "noun", gender: "f", plural: "surori", example: "Am o soră.", exampleRu: "У меня есть сестра." }
+  - { id: "doi", lemma: "doi", ru: "два", pos: "numeral", example: "Am doi frați.", exampleRu: "У меня два брата." }
+  - { id: "casa", lemma: "casă", ru: "дом", pos: "noun", gender: "f", plural: "case", example: "Casa mea este mare.", exampleRu: "Мой дом большой." }
+  - { id: "mare", lemma: "mare", ru: "большой", pos: "adjective", example: "O casă mare.", exampleRu: "Большой дом." }
+  - { id: "mic", lemma: "mic", ru: "маленький", pos: "adjective", example: "O cameră mică.", exampleRu: "Маленькая комната." }
+  - { id: "locuiesc", lemma: "locuiesc", ru: "живу", pos: "verb", example: "Locuiesc în Cluj.", exampleRu: "Я живу в Клуже." }
+  - { id: "camera", lemma: "cameră", ru: "комната", pos: "noun", gender: "f", plural: "camere", example: "Camera mea.", exampleRu: "Моя комната." }
+  - { id: "bucatarie", lemma: "bucătărie", ru: "кухня", pos: "noun", gender: "f", plural: "bucătării", example: "Masa este în bucătărie.", exampleRu: "Стол на кухне." }
+  - { id: "masa", lemma: "masă", ru: "стол", pos: "noun", gender: "f", plural: "mese", example: "Unde este masa?", exampleRu: "Где стол?" }
+  - { id: "scaun", lemma: "scaun", ru: "стул", pos: "noun", gender: "n", plural: "scaune", example: "Scaunul este aici.", exampleRu: "Стул здесь." }
+  - { id: "programator", lemma: "programator", ru: "программист", pos: "noun", gender: "m", plural: "programatori", example: "Sunt programator.", exampleRu: "Я программист." }
+  - { id: "lucrez", lemma: "lucrez", ru: "работаю", pos: "verb", example: "Lucrez în IT.", exampleRu: "Я работаю в IT." }
+  - { id: "munca", lemma: "muncă", ru: "работа", pos: "noun", gender: "f", example: "Merg la muncă.", exampleRu: "Иду на работу." }
+  - { id: "echipa", lemma: "echipă", ru: "команда", pos: "noun", gender: "f", plural: "echipe", example: "Lucrez în echipă.", exampleRu: "Я работаю в команде." }
+  - { id: "sedinta", lemma: "ședință", ru: "совещание", pos: "noun", gender: "f", plural: "ședințe", example: "Am o ședință.", exampleRu: "У меня совещание." }
+  - { id: "sunteti", lemma: "sunteți", ru: "вы есть", pos: "verb", example: "De unde sunteți?", exampleRu: "Откуда вы?" }
+  - { id: "locul-meu", lemma: "locul meu", ru: "моё место", pos: "phrase", example: "Locul meu este șapte.", exampleRu: "Моё место — седьмое." }
+  - { id: "ajung", lemma: "ajung", ru: "приезжаю", pos: "verb", example: "Ajung la Cluj.", exampleRu: "Я приезжаю в Клуж." }
+  - { id: "tata", lemma: "tată", ru: "папа", pos: "noun", gender: "m", plural: "tați", example: "Acesta este tatăl meu.", exampleRu: "Это мой папа." }
+  - { id: "copil", lemma: "copil", ru: "ребёнок", pos: "noun", gender: "m", plural: "copii", example: "Am un copil.", exampleRu: "У меня есть ребёнок." }
+  - { id: "bunic", lemma: "bunic", ru: "дедушка", pos: "noun", gender: "m", plural: "bunici", example: "Acesta este bunicul meu.", exampleRu: "Это мой дедушка." }
+  - { id: "surori", lemma: "surori", ru: "сёстры", pos: "noun", gender: "f", plural: "surori", example: "Am două surori.", exampleRu: "У меня две сестры." }
+  - { id: "farfurie", lemma: "farfurie", ru: "тарелка", pos: "noun", gender: "f", plural: "farfurii", example: "Farfuria este pe masă.", exampleRu: "Тарелка на столе." }
+  - { id: "usa", lemma: "ușă", ru: "дверь", pos: "noun", gender: "f", plural: "uși", example: "Ușa este în bucătărie.", exampleRu: "Дверь на кухне." }
+  - { id: "birou", lemma: "birou", ru: "офис; письменный стол", pos: "noun", gender: "n", plural: "birouri", example: "Lucrez într-un birou.", exampleRu: "Я работаю в офисе." }
+  - { id: "proiect", lemma: "proiect", ru: "проект", pos: "noun", gender: "n", plural: "proiecte", example: "Am un proiect nou.", exampleRu: "У меня новый проект." }
+  - { id: "raport", lemma: "raport", ru: "отчёт", pos: "noun", gender: "n", plural: "rapoarte", example: "Am un raport.", exampleRu: "У меня есть отчёт." }
+  - { id: "coleg", lemma: "coleg", ru: "коллега", pos: "noun", gender: "m", plural: "colegi", example: "Lucrez cu un coleg.", exampleRu: "Я работаю с коллегой." }
+
+units:
+  - id: "u1"
+    titleRu: "Первые слова"
+    chapters:
+      - id: "c1"
+        titleRo: "Salut"
+        titleRu: "Приветствие"
+        scenes:
+          - id: "s1"
+            titleRo: "Bună ziua"
+            titleRu: "Приветствия дня"
+            blocks:
+              - id: "b1"
+                titleRo: "Bună ziua"
+                titleRu: "Утро, день и вечер"
+                steps:
+                  - type: "insight"
+                    lemma: "buna-ziua"
+                    title: "Приветствия в течение дня"
+                    body: "В румынском языке приветствие строится со словом **bună** («добрая/хорошая»): утром — **Bună dimineața**, днём — **Bună ziua**, вечером — **Bună seara**. А слово **Mulțumesc** значит «спасибо»."
+                    tip: "Буква ă звучит как безударный русский «э/а» (шва), а ț — как русская «ц»."
+                    examples:
+                      - { primary: "Bună dimineața / Bună ziua / Bună seara", secondary: "Доброе утро / Добрый день / Добрый вечер" }
+                      - { primary: "Mulțumesc foarte mult!", secondary: "Большое спасибо!" }
+                  - type: "listening"
+                    lemma: "buna-dimineata"
+                    audio: "Bună dimineața"
+                    translation: "Доброе утро"
+                    options: ["Доброе утро", "Добрый вечер", "Добрый день", "До свидания"]
+                  - type: "recognition"
+                    lemma: "buna-seara"
+                    word: "Bună seara"
+                    translation: "Добрый вечер"
+                    options: ["Добрый вечер", "Доброе утро", "Спасибо", "Извините"]
+                  - type: "typein"
+                    lemma: "buna"
+                    prompt: "Привет!"
+                    answer: "Bună!"
+                    answers: ["Buna"]
+                    hint: "Неформальное приветствие; одно слово."
+                  - type: "assemble"
+                    lemma: "multumesc"
+                    prompt: "Большое спасибо."
+                    tokens: ["Mulțumesc", "foarte", "mult", "ziua", "seara"]
+                    answer: "Mulțumesc foarte mult."
+
+              - id: "b2"
+                titleRo: "Ce faci?"
+                titleRu: "Как дела?"
+                steps:
+                  - type: "recognition"
+                    lemma: "ce-faci"
+                    word: "Ce faci?"
+                    translation: "Как дела?"
+                    options: ["Как дела?", "Как вас зовут?", "Откуда вы?", "Сколько стоит?"]
+                  - type: "listening"
+                    lemma: "bine"
+                    audio: "Sunt bine, mulțumesc."
+                    translation: "Я в порядке, спасибо"
+                    options: ["Я в порядке, спасибо", "Я из России", "Меня зовут Григоре", "До свидания"]
+                  - type: "recognition"
+                    lemma: "la-revedere"
+                    word: "La revedere"
+                    translation: "До свидания"
+                    options: ["До свидания", "Добрый день", "Спасибо", "Привет"]
+                  - type: "assemble"
+                    lemma: "cine"
+                    prompt: "Кто ты?"
+                    tokens: ["Cine", "ești", "unde", "bine"]
+                    answer: "Cine ești?"
+                  - type: "typein"
+                    lemma: "nume"
+                    prompt: "Как вас зовут? (вежливо)"
+                    answer: "Cum vă numiți?"
+                    answers: ["Cum va numiti?"]
+                    hint: "Вежливый вопрос; глагол «называться» в форме «вы»."
+
+      - id: "c2"
+        titleRo: "Cine ești?"
+        titleRu: "Знакомство"
+        scenes:
+          - id: "s2"
+            titleRo: "Mă numesc"
+            titleRu: "Как тебя зовут?"
+            blocks:
+              - id: "b3"
+                titleRo: "Mă numesc"
+                titleRu: "Представляемся"
+                steps:
+                  - type: "insight"
+                    lemma: "ma-numesc"
+                    title: "Как представиться по-румынски"
+                    body: "Чтобы назвать своё имя, скажите **Mă numesc...** («Меня зовут...»). Вежливый вопрос к собеседнику — **Cum vă numiți?** («Как вас зовут?»), а ответ при знакомстве — **Îmi pare bine!** («Приятно познакомиться!»)."
+                    examples:
+                      - { primary: "Cum vă numiți?", secondary: "Как вас зовут? (вежливо)" }
+                      - { primary: "Mă numesc Anna. Îmi pare bine!", secondary: "Меня зовут Анна. Приятно познакомиться!" }
+                  - type: "listening"
+                    lemma: "nume"
+                    audio: "Numele meu este Grigore."
+                    translation: "Моё имя — Григоре"
+                    options: ["Моё имя — Григоре", "Я из Клужа", "Я программист", "Мне десять лет"]
+                  - type: "recognition"
+                    lemma: "imi-pare-bine"
+                    word: "Îmi pare bine"
+                    translation: "Приятно познакомиться"
+                    options: ["Приятно познакомиться", "До свидания", "Спасибо", "Как дела?"]
+                  - type: "assemble"
+                    lemma: "cum"
+                    prompt: "Как вас зовут?"
+                    tokens: ["Cum", "vă", "numiți", "mă", "bine"]
+                    answer: "Cum vă numiți?"
+                  - type: "typein"
+                    lemma: "ma-numesc"
+                    prompt: "Меня зовут Анна."
+                    answer: "Mă numesc Anna."
+                    answers: ["Mă numesc Ana."]
+                    hint: "Формула знакомства: возвратное «mă» + глагол «называюсь» + имя."
+
+              - id: "b4"
+                titleRo: "De unde ești?"
+                titleRu: "Откуда ты?"
+                steps:
+                  - type: "recognition"
+                    lemma: "unde"
+                    word: "De unde ești?"
+                    translation: "Откуда ты?"
+                    options: ["Откуда ты?", "Куда ты?", "Как дела?", "Кто ты?"]
+                  - type: "listening"
+                    lemma: "din"
+                    audio: "Sunt din Rusia."
+                    translation: "Я из России"
+                    options: ["Я из России", "Я из Румынии", "Я из Клужа", "Я дома"]
+                  - type: "recognition"
+                    lemma: "sunt"
+                    word: "Sunt din România"
+                    translation: "Я из Румынии"
+                    options: ["Я из Румынии", "Я из России", "Я в Румынии", "Я люблю Румынию"]
+                  - type: "assemble"
+                    lemma: "sunteti"
+                    prompt: "Откуда вы?"
+                    tokens: ["De", "unde", "sunteți", "din", "cine"]
+                    answer: "De unde sunteți?"
+                  - type: "typein"
+                    lemma: "este"
+                    prompt: "Кто это?"
+                    answer: "Cine este?"
+                    answers: ["Cine e?"]
+                    hint: "Вопрос: «кто» + глагол «есть»."
+
+  - id: "u2"
+    titleRu: "Каждый день"
+    chapters:
+      - id: "c3"
+        titleRo: "La cafenea"
+        titleRu: "В кафе"
+        scenes:
+          - id: "s3"
+            titleRo: "O cafea, te rog"
+            titleRu: "Заказ напитков"
+            blocks:
+              - id: "b5"
+                titleRo: "O cafea, te rog"
+                titleRu: "Кофе, чай и вода"
+                steps:
+                  - type: "recognition"
+                    lemma: "cafea"
+                    word: "cafea"
+                    translation: "кофе"
+                    options: ["кофе", "чай", "вода", "счёт"]
+                  - type: "listening"
+                    lemma: "te-rog"
+                    audio: "O cafea, te rog."
+                    translation: "Кофе, пожалуйста"
+                    options: ["Кофе, пожалуйста", "Чай, пожалуйста", "Счёт, пожалуйста", "Воды, пожалуйста"]
+                  - type: "recognition"
+                    lemma: "apa"
+                    word: "apă"
+                    translation: "вода"
+                    options: ["вода", "кофе", "чай", "молоко"]
+                  - type: "assemble"
+                    lemma: "vreau"
+                    prompt: "Я хочу кофе."
+                    tokens: ["Vreau", "o", "cafea", "apă", "un"]
+                    answer: "Vreau o cafea."
+                  - type: "typein"
+                    lemma: "ceai"
+                    prompt: "Чай, пожалуйста."
+                    answer: "Un ceai, te rog."
+                    answers: ["Un ceai, vă rog."]
+                    hint: "Заказ: неопределённый артикль + существительное + вежливая просьба."
+
+              - id: "b6"
+                titleRo: "Cât costă?"
+                titleRu: "Счёт и цена"
+                steps:
+                  - type: "insight"
+                    lemma: "cat-costa"
+                    title: "Определённый артикль на конце слова"
+                    body: "В румынском языке определённый артикль («этот конкретный») присоединяется **к концу существительного**: **o cafea** (какой-то кофе) → **cafeaua** (этот кофе), **o notă** → **nota** (счёт)."
+                    examples:
+                      - { primary: "Cât costă cafeaua?", secondary: "Сколько стоит (этот) кофе?" }
+                      - { primary: "Nota, vă rog!", secondary: "Счёт, пожалуйста!" }
+                  - type: "listening"
+                    lemma: "cinci"
+                    audio: "Costă cinci lei."
+                    translation: "Пять лей"
+                    options: ["Пять лей", "Десять лей", "Пять евро", "Два лея"]
+                  - type: "recognition"
+                    lemma: "lei"
+                    word: "lei"
+                    translation: "лей"
+                    options: ["лей", "евро", "рублей", "долларов"]
+                  - type: "assemble"
+                    lemma: "nota"
+                    prompt: "Счёт, пожалуйста."
+                    tokens: ["Nota", "vă", "rog", "cinci", "costă"]
+                    answer: "Nota, vă rog."
+                  - type: "typein"
+                    lemma: "cat-costa"
+                    prompt: "Сколько стоит кофе?"
+                    answer: "Cât costă cafeaua?"
+                    hint: "Вопрос о цене; кофе — с определённым артиклем на конце."
+
+      - id: "c4"
+        titleRo: "La gară"
+        titleRu: "На вокзале"
+        scenes:
+          - id: "s4"
+            titleRo: "Un bilet"
+            titleRu: "Покупка билета"
+            blocks:
+              - id: "b7"
+                titleRo: "Un bilet"
+                titleRu: "Билет до Клужа"
+                steps:
+                  - type: "recognition"
+                    lemma: "cinci"
+                    word: "cinci"
+                    translation: "пять"
+                    options: ["пять", "десять", "два", "восемь"]
+                  - type: "listening"
+                    lemma: "cluj"
+                    audio: "Vreau un bilet la Cluj."
+                    translation: "Я хочу билет до Клужа"
+                    options: ["Я хочу билет до Клужа", "Я хочу билет до Бухареста", "Я хочу кофе", "Я еду в Клуж"]
+                  - type: "recognition"
+                    lemma: "tren"
+                    word: "tren"
+                    translation: "поезд"
+                    options: ["поезд", "билет", "вокзал", "вагон"]
+                  - type: "assemble"
+                    lemma: "bilet"
+                    prompt: "Я хочу билет на поезд."
+                    tokens: ["Vreau", "un", "bilet", "de", "tren", "gară", "la"]
+                    answer: "Vreau un bilet de tren."
+                  - type: "typein"
+                    lemma: "va-rog"
+                    prompt: "Один билет, пожалуйста."
+                    answer: "Un bilet, vă rog."
+                    answers: ["Un bilet, te rog."]
+                    hint: "Покупка: неопределённый артикль + существительное + вежливая форма «вы»."
+
+              - id: "b8"
+                titleRo: "La ce oră?"
+                titleRu: "Расписание"
+                steps:
+                  - type: "insight"
+                    lemma: "tren"
+                    title: "Артикль мужского и среднего рода (-ul)"
+                    body: "Слова мужского и среднего рода на согласную получают определённый артикль **-ul** на конце: **un tren** (поезд) → **trenul** (этот поезд), **un vagon** → **vagonul** (вагон)."
+                    examples:
+                      - { primary: "Trenul pleacă la ora opt.", secondary: "Поезд отправляется в восемь часов." }
+                      - { primary: "La ce oră pleacă trenul?", secondary: "В котором часу отправляется поезд?" }
+                  - type: "listening"
+                    lemma: "pleaca"
+                    audio: "Trenul pleacă la ora opt."
+                    translation: "Поезд отправляется в восемь"
+                    options: ["Поезд отправляется в восемь", "Поезд отправляется в девять", "Поезд уже ушёл", "Поезд опаздывает"]
+                  - type: "recognition"
+                    lemma: "gara"
+                    word: "gară"
+                    translation: "вокзал"
+                    options: ["вокзал", "поезд", "билет", "вагон"]
+                  - type: "assemble"
+                    lemma: "ora"
+                    prompt: "В котором часу отправляется поезд?"
+                    tokens: ["La", "ce", "oră", "pleacă", "trenul", "opt", "bilet"]
+                    answer: "La ce oră pleacă trenul?"
+                  - type: "typein"
+                    lemma: "noua"
+                    prompt: "Поезд отправляется в девять."
+                    answer: "Trenul pleacă la ora nouă."
+                    hint: "Поезд с артиклем + глагол «отправляется» + время (9)."
+
+          - id: "s5"
+            titleRo: "În tren"
+            titleRu: "В поезде"
+            blocks:
+              - id: "b9"
+                titleRo: "Unde e vagonul?"
+                titleRu: "Вагон и место"
+                steps:
+                  - type: "recognition"
+                    lemma: "opt"
+                    word: "opt"
+                    translation: "восемь"
+                    options: ["восемь", "семь", "девять", "десять"]
+                  - type: "listening"
+                    lemma: "sapte"
+                    audio: "Unde este vagonul șapte?"
+                    translation: "Где седьмой вагон?"
+                    options: ["Где седьмой вагон?", "Где моё место?", "Где вокзал?", "Где поезд?"]
+                  - type: "recognition"
+                    lemma: "loc"
+                    word: "loc"
+                    translation: "место"
+                    options: ["место", "вагон", "билет", "стол"]
+                  - type: "assemble"
+                    lemma: "locul-meu"
+                    prompt: "Моё место — седьмое."
+                    tokens: ["Locul", "meu", "este", "șapte", "vagon", "opt"]
+                    answer: "Locul meu este șapte."
+                  - type: "typein"
+                    lemma: "vagon"
+                    prompt: "Где вагон?"
+                    answer: "Unde este vagonul?"
+                    answers: ["Unde e vagonul?"]
+                    hint: "Вопрос: «где» + глагол «есть» + вагон с артиклем."
+
+              - id: "b10"
+                titleRo: "Am ajuns"
+                titleRu: "Прибытие"
+                steps:
+                  - type: "insight"
+                    lemma: "ajuns"
+                    title: "Прошедшее время: Am ajuns"
+                    body: "Прошедшее время для «я» и «мы» строится с помощником **am**: **ajung** (приезжаю) → **am ajuns** (я приехал / мы приехали)."
+                    examples:
+                      - { primary: "Ajung la Cluj → Am ajuns la Cluj", secondary: "Приезжаю в Клуж → Приехал(и) в Клуж" }
+                  - type: "listening"
+                    lemma: "cluj"
+                    audio: "Am ajuns la Cluj."
+                    translation: "Мы приехали в Клуж"
+                    options: ["Мы приехали в Клуж", "Мы едем в Клуж", "Мы живём в Клуже", "Мы из Клужа"]
+                  - type: "recognition"
+                    lemma: "acum"
+                    word: "acum"
+                    translation: "сейчас"
+                    options: ["сейчас", "потом", "вчера", "завтра"]
+                  - type: "typein"
+                    lemma: "ajuns"
+                    prompt: "Я приехал."
+                    answer: "Am ajuns."
+                    hint: "Прошедшее время: помощник «am» + причастие от «приезжать»."
+                  - type: "transform"
+                    lemma: "ajung"
+                    source: "Ajung la Cluj."
+                    instruction: "Поставьте в прошедшее время"
+                    answer: "Am ajuns la Cluj."
+
+  - id: "u3"
+    titleRu: "Дом и работа"
+    chapters:
+      - id: "c5"
+        titleRo: "Familia"
+        titleRu: "Семья"
+        scenes:
+          - id: "s6"
+            titleRo: "Familia mea"
+            titleRu: "Близкие"
+            blocks:
+              - id: "b11"
+                titleRo: "Familia mea"
+                titleRu: "Моя семья"
+                steps:
+                  - type: "recognition"
+                    lemma: "tata"
+                    word: "tată"
+                    translation: "папа"
+                    options: ["папа", "мама", "брат", "сестра"]
+                  - type: "listening"
+                    lemma: "familie"
+                    audio: "Aceasta este familia mea."
+                    translation: "Это моя семья"
+                    options: ["Это моя семья", "Это мой дом", "Это моя работа", "Это моя команда"]
+                  - type: "recognition"
+                    lemma: "mama"
+                    word: "mamă"
+                    translation: "мама"
+                    options: ["мама", "сестра", "семья", "жена"]
+                  - type: "assemble"
+                    lemma: "copil"
+                    prompt: "У меня есть ребёнок."
+                    tokens: ["Am", "un", "copil", "frate", "soră"]
+                    answer: "Am un copil."
+                  - type: "typein"
+                    lemma: "bunic"
+                    prompt: "Это мой дедушка."
+                    answer: "Acesta este bunicul meu."
+                    answers: ["Acesta e bunicul meu."]
+                    hint: "Указательное «этот» + дедушка с артиклем + притяжательное."
+
+              - id: "b12"
+                titleRo: "Am doi frați"
+                titleRu: "Братья и сёстры"
+                steps:
+                  - type: "insight"
+                    lemma: "frate"
+                    title: "Множественное число мужского рода (-i)"
+                    body: "Во множественном числе слова мужского рода меняют окончание на **-i** (при этом **t** перед **i** переходит в **ț**): **un frate** (один брат) → **doi frați** (два брата)."
+                    examples:
+                      - { primary: "un frate → doi frați", secondary: "один брат → два брата" }
+                      - { primary: "Am o soră.", secondary: "У меня есть сестра." }
+                  - type: "listening"
+                    lemma: "doi"
+                    audio: "Am doi frați."
+                    translation: "У меня два брата"
+                    options: ["У меня два брата", "У меня две сестры", "У меня один брат", "У меня нет братьев"]
+                  - type: "recognition"
+                    lemma: "sora"
+                    word: "soră"
+                    translation: "сестра"
+                    options: ["сестра", "брат", "мама", "дочь"]
+                  - type: "typein"
+                    lemma: "surori"
+                    prompt: "Две сестры."
+                    answer: "Două surori."
+                    answers: ["Doua surori."]
+                    hint: "Числительное «две» + множественное число «сёстры»."
+                  - type: "transform"
+                    lemma: "frate"
+                    source: "un frate"
+                    instruction: "Поставьте во множественное число (два брата)"
+                    answer: "doi frați"
+
+      - id: "c6"
+        titleRo: "Acasă"
+        titleRu: "Дома"
+        scenes:
+          - id: "s7"
+            titleRo: "Casa"
+            titleRu: "Дом и комнаты"
+            blocks:
+              - id: "b13"
+                titleRo: "Casa"
+                titleRu: "Мой дом"
+                steps:
+                  - type: "recognition"
+                    lemma: "casa"
+                    word: "casă"
+                    translation: "дом"
+                    options: ["дом", "комната", "кухня", "стол"]
+                  - type: "listening"
+                    lemma: "mare"
+                    audio: "Casa mea este mare."
+                    translation: "Мой дом большой"
+                    options: ["Мой дом большой", "Мой дом маленький", "Моя комната большая", "Моя кухня маленькая"]
+                  - type: "recognition"
+                    lemma: "camera"
+                    word: "cameră"
+                    translation: "комната"
+                    options: ["комната", "дом", "кухня", "дверь"]
+                  - type: "assemble"
+                    lemma: "locuiesc"
+                    prompt: "Я живу в Клуже."
+                    tokens: ["Locuiesc", "în", "Cluj", "casă", "mare"]
+                    answer: "Locuiesc în Cluj."
+                  - type: "typein"
+                    lemma: "mic"
+                    prompt: "Мой дом маленький."
+                    answer: "Casa mea este mică."
+                    hint: "Дом с артиклем + притяжательное + прилагательное в женском роде."
+
+              - id: "b14"
+                titleRo: "În bucătărie"
+                titleRu: "На кухне"
+                steps:
+                  - type: "recognition"
+                    lemma: "bucatarie"
+                    word: "bucătărie"
+                    translation: "кухня"
+                    options: ["кухня", "комната", "стол", "стул"]
+                  - type: "listening"
+                    lemma: "masa"
+                    audio: "Masa este în bucătărie."
+                    translation: "Стол на кухне"
+                    options: ["Стол на кухне", "Стул на кухне", "Стол в комнате", "Кухня большая"]
+                  - type: "recognition"
+                    lemma: "farfurie"
+                    word: "farfurie"
+                    translation: "тарелка"
+                    options: ["тарелка", "стол", "кухня", "дом"]
+                  - type: "assemble"
+                    lemma: "scaun"
+                    prompt: "Стул на кухне."
+                    tokens: ["Scaunul", "este", "în", "bucătărie", "masa"]
+                    answer: "Scaunul este în bucătărie."
+                  - type: "typein"
+                    lemma: "usa"
+                    prompt: "Дверь на кухне."
+                    answer: "Ușa este în bucătărie."
+                    hint: "Дверь с артиклем + предлог «в» + кухня."
+
+      - id: "c7"
+        titleRo: "La muncă"
+        titleRu: "На работе"
+        scenes:
+          - id: "s8"
+            titleRo: "Sunt programator"
+            titleRu: "Профессия и офис"
+            blocks:
+              - id: "b15"
+                titleRo: "Sunt programator"
+                titleRu: "Работа в команде"
+                steps:
+                  - type: "recognition"
+                    lemma: "programator"
+                    word: "programator"
+                    translation: "программист"
+                    options: ["программист", "учитель", "врач", "водитель"]
+                  - type: "listening"
+                    lemma: "birou"
+                    audio: "Lucrez într-un birou."
+                    translation: "Я работаю в офисе"
+                    options: ["Я работаю в офисе", "Я работаю в IT", "Я из Клужа", "Я учусь"]
+                  - type: "recognition"
+                    lemma: "munca"
+                    word: "muncă"
+                    translation: "работа"
+                    options: ["работа", "команда", "совещание", "дом"]
+                  - type: "assemble"
+                    lemma: "echipa"
+                    prompt: "Я работаю в команде."
+                    tokens: ["Lucrez", "în", "echipă", "muncă", "sunt"]
+                    answer: "Lucrez în echipă."
+                  - type: "typein"
+                    lemma: "lucrez"
+                    prompt: "Я работаю в IT."
+                    answer: "Lucrez în IT."
+                    answers: ["Eu lucrez în IT."]
+                    hint: "Глагол «работаю» + предлог «в» + сфера IT."
+
+              - id: "b16"
+                titleRo: "Ședința"
+                titleRu: "Совещание"
+                steps:
+                  - type: "recognition"
+                    lemma: "sedinta"
+                    word: "ședință"
+                    translation: "совещание"
+                    options: ["совещание", "работа", "команда", "обед"]
+                  - type: "listening"
+                    lemma: "zece"
+                    audio: "Ședința începe la ora zece."
+                    translation: "Совещание начинается в десять"
+                    options: ["Совещание начинается в десять", "Совещание начинается в девять", "Совещание уже началось", "Совещание отменили"]
+                  - type: "recognition"
+                    lemma: "proiect"
+                    word: "proiect"
+                    translation: "проект"
+                    options: ["проект", "работа", "совещание", "семья"]
+                  - type: "assemble"
+                    lemma: "raport"
+                    prompt: "У меня есть отчёт."
+                    tokens: ["Am", "un", "raport", "ședință", "coleg"]
+                    answer: "Am un raport."
+                  - type: "typein"
+                    lemma: "coleg"
+                    prompt: "Я работаю с коллегой."
+                    answer: "Lucrez cu un coleg."
+                    answers: ["Eu lucrez cu un coleg."]
+                    hint: "Глагол «работаю» + предлог «с» + коллега."

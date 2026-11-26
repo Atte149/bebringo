@@ -1,0 +1,26 @@
+# Gradle / Android
+.gradle/
+.kotlin/
+.toolchain/
+.gemini/
+build/
+app/build/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+*.log
+*.hprof
+
+# Local release artifacts
+release/
+
+# Reference APK and root-level design sheets (not needed by the app)
+*.xapk
+/*.png
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store

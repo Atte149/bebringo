@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="110dp"
+    android:height="100dp"
+    android:viewportWidth="110"
+    android:viewportHeight="100">
+    <!-- Тёплые золотые искры и звёздочки вокруг бобрика -->
+    <path android:fillColor="#80FFD54F" android:pathData="M24,18 L26,13 L28,18 L33,20 L28,22 L26,27 L24,22 L19,20 Z" />
+    <path android:fillColor="#66FFB300" android:pathData="M52,11 m-1.8,0 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0" />
+    <path android:fillColor="#8CFFE082" android:pathData="M82,14 L83.5,10 L85,14 L89,15.5 L85,17 L83.5,21 L82,17 L78,15.5 Z" />
+    <path android:fillColor="#59FFCA28" android:pathData="M96,32 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
+    <path android:fillColor="#66FFD54F" android:pathData="M15,45 m-1.8,0 a1.8,1.8 0 1,0 3.6,0 a1.8,1.8 0 1,0 -3.6,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M94,58 m-2.0,0 a2.0,2.0 0 1,0 4.0,0 a2.0,2.0 0 1,0 -4.0,0" />
+</vector>
